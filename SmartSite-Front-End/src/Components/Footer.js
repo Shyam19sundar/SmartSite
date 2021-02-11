@@ -20,7 +20,7 @@ class Footer extends Component{
                         Zip Code: 90209–90213
                     </p>
                     <div className="copyrights">
-                        ©Copyrights Shyam Sundar 2020
+                        ©Copyrights Ram Prakash && Shyam Sundar 2020
                     </div>
                 </div>
             </div>
