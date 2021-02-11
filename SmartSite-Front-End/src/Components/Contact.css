@@ -1,0 +1,126 @@
+.contact_image{
+    margin-top: 18vh;
+    background-image: url("./pexels-pixabay-267507.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    opacity: 0.4;
+}
+
+.inside_portion{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: 0%;
+    top: 20%;
+    width: 100%;
+}
+
+.left_portion > p{
+    font-family: "Itim";
+    font-size: large;
+}
+
+.right_portion{
+    margin-top: 7vh;
+    font-family: "Itim";
+    font-size: x-large;
+    font-weight: bolder;
+    flex: 0.5;
+    text-align: left !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    width: 70%;
+}
+
+.left_portion{
+    margin-top: 20vh;
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    flex: 0.5;
+}
+
+.feedback_form{
+    position: relative;
+    height: 100vh;
+}
+
+.contactt{
+    width: 100%;
+    height: 250vh;
+}
+
+.personall > .MuiSvgIcon-root{
+    font-size: 50px;
+}
+
+.full_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-top: 50px;
+    background-color: white;
+    font-family: "Itim";
+    color: teal;
+}
+
+.full_addresses{
+    margin-top: 60px;
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactt > h5{
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.contactt > p {
+    font-family: "Itim";
+    font-size: 20px;
+    padding: 10px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.corporate_address{
+    padding: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+    font-family: "Abril Fatface";
+    border-radius: 10px;
+}
+
+.direct_contact{
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    color: white;
+    font-family: "Abril Fatface";
+    font-weight: lighter;
+    box-shadow: -1px 4px 20px -6px rgba(0,0,0,0.75);
+}
+
+.direct_contact > .MuiSvgIcon-root{
+    font-size: 50px;
+    margin: 20px;
+}
+
+.corporate_address > h3{
+    margin-bottom: 20px;
+}

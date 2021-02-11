@@ -1,0 +1,65 @@
+.login_full{
+    position: relative;
+    background-color: rgb(206, 205, 205);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    width: 60%;
+    height: 470px;
+    padding: 50px;
+}
+
+.login_content_full{
+    width: 60%;
+}
+
+.login_header{
+    font-size: xx-large;
+    text-align: left;
+    margin-bottom: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.user_icon{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-control{
+    width: 50% !important;
+}
+
+.button_container{
+    width: 50%;
+}
+
+.not_user{
+    margin-top: 20px;
+    font-family: 'Itim', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    background-color: black !important;
+    color: white !important;
+}
+
+.login_full a {
+    text-decoration: none;
+    color: black;
+}
+
+.success_message > a{
+    background-color: black;
+    color: white;
+    font-size: medium;
+    width: 150px;
+    font-family: 'Itim', cursive;
+    border-radius: 30px;
+    display: block;
+}
