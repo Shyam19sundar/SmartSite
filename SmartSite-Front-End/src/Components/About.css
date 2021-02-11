@@ -1,0 +1,106 @@
+.about-div{
+  width: 100%;
+  height: 100vw;
+}
+
+.about-divcontent{
+    margin-top: 40px;
+    width: 70%;
+}
+
+.about-divcontent > h3{
+    font-family: "Abril Fatface";
+    text-align: left;
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+.quote{
+    width: 70%;
+}
+
+.breadcrumb{
+    width: 13%;
+    margin: 2vw;
+    background-color: rgb(0, 128, 128, 0.6) !important;
+}
+
+.breadcrumb-item.active {
+    color: black;
+}
+
+.breadcrumb-item {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.breadcrumb-item a > a{
+    color: black;
+}
+
+.about-divcontent > h2{
+    font-family: "Abril Fatface";
+    text-align: left;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.about-divcontent > p{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+    font-family: "Itim";
+}
+
+.philosophy{
+    margin-top: 150px;
+    background-color: black;
+    color: white;
+}
+
+.philosophy > h3{
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    text-align: center;
+    margin-left: 500px;
+    padding: 20px;
+    border-bottom: 3px solid teal;
+    margin-right: 500px;
+}
+
+.philo_content{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.vision>h3{
+    font-family: "Abril FAtface";
+    padding: 5px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.community{
+    margin-top: 125px;
+    width: 100%;
+}
+
+.community > h3{
+    font-family: "Abril FatFace";
+    font-size: 50px;
+}
+
+.community > p{
+    font-family: "Itim";
+}
+
+.community_cards{
+    margin-top: 50px;
+    display: flex;
+}
+
+.card_1{
+    padding: 20px;
+}
